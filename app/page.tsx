@@ -236,7 +236,7 @@ export default function AliyahCompassHomepage() {
             </div>
 
             <textarea
-              rows="5"
+              rows={5}
               placeholder="Tell me a little about where you are in the aliyah process..."
               className="rounded-2xl border border-[#D8CBB8] bg-white px-5 py-4 outline-none transition focus:border-[#A57C52]"
             ></textarea>
