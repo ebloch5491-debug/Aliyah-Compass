@@ -84,7 +84,41 @@ export default function AliyahCompassHomepage() {
           </div>
         </div>
       </section>
+      
+      {/* Meet Efrat */}
+      <section className="mx-auto max-w-6xl px-6 py-20">
+        <div className="grid gap-10 rounded-[2rem] border border-[#D8CBB8] bg-white/70 p-8 shadow-sm md:grid-cols-[1fr_2fr] md:p-12">
+          <div className="flex items-center justify-center">
+            <div className="flex h-48 w-48 items-center justify-center rounded-full border border-[#D8CBB8] bg-[#F7F2EA] text-center text-sm font-medium text-[#A57C52]">
+              Photo Coming Soon
+            </div>
+          </div>
 
+          <div>
+            <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-[#A57C52]">
+              Meet Your Guide
+            </p>
+
+            <h3 className="text-3xl font-semibold md:text-4xl">
+              Meet Efrat Bloch
+            </h3>
+
+            <div className="mt-6 space-y-5 text-lg leading-8 text-[#4B5563]">
+              <p>
+                I created Aliyah Compass to help families navigate one of the biggest decisions they will ever make. Aliyah is exciting, meaningful, and often overwhelming.
+              </p>
+
+              <p>
+                Whether you are actively planning a move or simply exploring aliyah for the future, I provide warm, practical guidance to help you think through your options and move forward with greater clarity and confidence.
+              </p>
+
+              <p>
+                For many families, aliyah is about more than logistics. Questions about community, schools, family life, and long-term goals are often just as important as budgets, paperwork, and timelines.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* About */}
       <section id="about" className="mx-auto max-w-5xl px-6 py-24">
         <div className="rounded-[2rem] border border-[#D8CBB8] bg-white/60 p-10 shadow-sm">
