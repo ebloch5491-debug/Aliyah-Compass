@@ -60,7 +60,7 @@ export default function AliyahCompassHomepage() {
             <div className="absolute -inset-4 rounded-[2.5rem] bg-[#D8CBB8]/40 blur-2xl"></div>
 
             <div className="relative overflow-hidden rounded-[2rem] border border-[#D8CBB8] bg-[#EADDCB] shadow-2xl">
-              <div className="h-72 bg-gradient-to-br from-[#CBB89D] via-[#E8DCC9] to-[#F7F2EA] p-8 md:h-96">
+              <div className="h-96 bg-gradient-to-br from-[#CBB89D] via-[#E8DCC9] to-[#F7F2EA] p-8 md:h-96">
                 <div className="flex h-full flex-col justify-between rounded-[1.5rem] border border-white/50 bg-white/35 p-6 backdrop-blur-sm">
                   <div>
                     <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#7C5A3A]">
