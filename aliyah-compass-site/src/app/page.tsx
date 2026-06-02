@@ -31,7 +31,7 @@ export default function AliyahCompassHomepage() {
               Aliyah Guidance for Families
             </p>
 
-            <h2 className="max-w-xl text-5xl font-semibold leading-tight md:text-6xl">
+            <h2 className="max-w-xl text-6xl font-semibold leading-tight md:text-6xl">
               From First Questions to Building a Life in Israel
             </h2>
 
