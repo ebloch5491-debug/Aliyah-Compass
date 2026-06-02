@@ -56,27 +56,24 @@ export default function AliyahCompassHomepage() {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="rounded-[2rem] border border-[#D8CBB8] bg-white/70 p-8 shadow-2xl backdrop-blur">
-              <div className="space-y-6">
-                <div className="rounded-2xl bg-[#F7F2EA] p-5">
-                  <h3 className="text-lg font-semibold">Aliyah Planning</h3>
-                  <p className="mt-2 text-sm leading-6 text-[#6B7280]">
-                    Organize your aliyah process into clear, manageable steps.
-                  </p>
-                </div>
+        <div className="relative">
+            <div className="absolute -inset-4 rounded-[2.5rem] bg-[#D8CBB8]/40 blur-2xl"></div>
 
-                <div className="rounded-2xl bg-[#F7F2EA] p-5">
-                  <h3 className="text-lg font-semibold">Community Guidance</h3>
-                  <p className="mt-2 text-sm leading-6 text-[#6B7280]">
-                    Explore communities that align with your family’s values, goals, and lifestyle.
-                  </p>
-                </div>
+            <div className="relative overflow-hidden rounded-[2rem] border border-[#D8CBB8] bg-[#EADDCB] shadow-2xl">
+              <div className="h-72 bg-gradient-to-br from-[#CBB89D] via-[#E8DCC9] to-[#F7F2EA] p-8 md:h-96">
+                <div className="flex h-full flex-col justify-between rounded-[1.5rem] border border-white/50 bg-white/35 p-6 backdrop-blur-sm">
+                  <div>
+                    <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#7C5A3A]">
+                      Communities • Schools • Family Life
+                    </p>
 
-                <div className="rounded-2xl bg-[#F7F2EA] p-5">
-                  <h3 className="text-lg font-semibold">Long-Term Planning</h3>
-                  <p className="mt-2 text-sm leading-6 text-[#6B7280]">
-                    Whether aliyah is months away or years down the road, start preparing thoughtfully.
+                    <h3 className="mt-4 max-w-sm text-3xl font-semibold leading-tight text-[#1F2E3D]">
+                      A calmer way to plan your future in Israel.
+                    </h3>
+                  </div>
+
+                  <p className="max-w-sm text-base leading-7 text-[#4B5563]">
+                    Thoughtful support for the practical, emotional, and family decisions that come with aliyah.
                   </p>
                 </div>
               </div>
