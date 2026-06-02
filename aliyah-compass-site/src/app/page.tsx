@@ -83,7 +83,7 @@ export default function AliyahCompassHomepage() {
       </section>
       
       {/* Meet Efrat */}
-      <section className="mx-auto max-w-6xl px-6 py-20">
+      <section className="mx-auto max-w-6xl px-6 py-12">
         <div className="grid gap-10 rounded-[2rem] border border-[#D8CBB8] bg-white/70 p-8 shadow-sm md:grid-cols-[1fr_2fr] md:p-12">
           <div className="flex items-center justify-center">
             <img
