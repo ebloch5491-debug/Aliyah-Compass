@@ -25,7 +25,7 @@ export default function AliyahCompassHomepage() {
           <div className="absolute right-0 top-40 h-96 w-96 rounded-full bg-[#E2D3BE] blur-3xl"></div>
         </div>
 
-        <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-24 md:grid-cols-2 md:items-center">
+        <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-32 md:grid-cols-2 md:items-center">
           <div>
             <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-[#A57C52]">
               Aliyah Guidance for Families
