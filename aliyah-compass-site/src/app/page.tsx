@@ -28,15 +28,15 @@ export default function AliyahCompassHomepage() {
         <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-24 md:grid-cols-2 md:items-center">
           <div>
             <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-[#A57C52]">
-              Personalized Aliyah Guidance
+              Aliyah Guidance for Families
             </p>
 
             <h2 className="max-w-xl text-5xl font-semibold leading-tight md:text-6xl">
-              From First Questions to Life in Israel
+              From First Questions to Building a Life in Israel
             </h2>
 
             <p className="mt-8 max-w-xl text-lg leading-8 text-[#4B5563]">
-              Thoughtful, practical aliyah guidance for individuals and families planning their move to Israel — from long-term planning and community research to budgeting, pilot trips, schools, and next steps.
+              Warm, practical guidance for families thinking through aliyah, community, schools, budgeting, and the many real-life questions that come with building a future in Israel.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
