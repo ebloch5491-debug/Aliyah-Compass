@@ -262,7 +262,9 @@ export default function AliyahCompassHomepage() {
             </a>
 
             <a
-              href="#"
+              href="https://forms.gle/9E5SThoYPVehj6Dz6"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-2xl border border-[#C7B299] px-8 py-4 text-center text-sm font-medium transition hover:bg-[#EFE5D7]"
             >
               Complete the Intake Form
