@@ -253,34 +253,31 @@ export default function AliyahCompassHomepage() {
             </p>
           </div>
 
-          <form className="mt-12 grid gap-6">
-            <div className="grid gap-6 md:grid-cols-2">
-              <input
-                type="text"
-                placeholder="Name"
-                className="rounded-2xl border border-[#D8CBB8] bg-white px-5 py-4 outline-none transition focus:border-[#A57C52]"
-              />
-
-              <input
-                type="email"
-                placeholder="Email"
-                className="rounded-2xl border border-[#D8CBB8] bg-white px-5 py-4 outline-none transition focus:border-[#A57C52]"
-              />
-            </div>
-
-            <textarea
-              rows={5}
-              placeholder="Tell me a little about where you are in the aliyah process..."
-              className="rounded-2xl border border-[#D8CBB8] bg-white px-5 py-4 outline-none transition focus:border-[#A57C52]"
-            ></textarea>
-
-            <button
-              type="submit"
-              className="rounded-2xl bg-[#A57C52] px-8 py-4 text-sm font-medium text-white shadow-lg transition hover:opacity-90"
+          <div className="mt-12 grid gap-4 sm:grid-cols-2">
+            <a
+              href="mailto:aliyahcompass@gmail.com"
+              className="rounded-2xl bg-[#A57C52] px-8 py-4 text-center text-sm font-medium text-white shadow-lg transition hover:opacity-90"
             >
-              Send Inquiry
-            </button>
-          </form>
+              Send an Email
+            </a>
+
+            <a
+              href="#"
+              className="rounded-2xl border border-[#C7B299] px-8 py-4 text-center text-sm font-medium transition hover:bg-[#EFE5D7]"
+            >
+              Complete the Intake Form
+            </a>
+          </div>
+
+          <p className="mt-6 text-center text-sm text-[#6B7280]">
+            Or email directly at{" "}
+            <a
+              href="mailto:aliyahcompass@gmail.com"
+              className="font-medium text-[#A57C52] underline-offset-4 hover:underline"
+            >
+              aliyahcompass@gmail.com
+            </a>
+          </p>
         </div>
       </section>
 
