@@ -284,18 +284,30 @@ export default function AliyahCompassHomepage() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-[#D8CBB8] py-10">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 text-center md:flex-row md:text-left">
-          <div>
-            <h4 className="text-xl font-semibold">Aliyah Compass</h4>
-            <p className="mt-2 text-sm text-[#6B7280]">
-              Helping Families Navigate Aliyah With Confidence
+      <footer className="border-t border-[#D8CBB8] bg-[#F3ECE2] py-12">
+        <div className="mx-auto max-w-7xl px-6 text-center">
+          <h4 className="text-2xl font-semibold">Aliyah Compass</h4>
+
+          <p className="mt-3 text-[#6B7280]">
+            Guidance on Communities, Schools, and Family Life in Israel
+          </p>
+
+          <div className="mt-6 space-y-1 text-sm text-[#6B7280]">
+            <p>Efrat Bloch</p>
+
+            <p>
+              <a
+                href="mailto:aliyahcompass@gmail.com"
+                className="hover:text-[#A57C52]"
+              >
+                aliyahcompass@gmail.com
+              </a>
             </p>
           </div>
 
-          <div className="text-sm text-[#6B7280]">
+          <p className="mt-8 text-xs text-[#9CA3AF]">
             © 2026 Aliyah Compass
-          </div>
+          </p>
         </div>
       </footer>
     </div>
