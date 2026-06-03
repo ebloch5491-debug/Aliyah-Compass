@@ -59,7 +59,7 @@ export default function AliyahCompassHomepage() {
         <div className="relative">
             <div className="absolute -inset-4 rounded-[2.5rem] bg-[#D8CBB8]/40 blur-2xl"></div>
 
-            <div className="relative overflow-hidden rounded-[2rem] border border-[#D8CBB8] bg-[#EADDCB] shadow-2xl">
+            <div className="relative overflow-hidden rounded-[2rem] border border-[#D8CBB8] bg-[#EADDCB] shadow-2xl before:absolute before:inset-0 before:bg-[linear-gradient(135deg,rgba(255,255,255,0.28)_0_25%,transparent_25%_50%,rgba(255,255,255,0.18)_50%_75%,transparent_75%)] before:bg-[length:80px_80px] before:opacity-35">
               <div className="h-[500px] bg-gradient-to-br from-[#C7B299] via-[#E8DCC9] to-[#F7F2EA] p-8">
                 <div className="flex h-full flex-col justify-between rounded-[1.5rem] border border-white/50 bg-white/35 p-6 backdrop-blur-sm">
                   <div>
