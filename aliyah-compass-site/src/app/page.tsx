@@ -152,36 +152,36 @@ export default function AliyahCompassHomepage() {
             Services
           </p>
 
-          <h3 className="text-4xl font-semibold">Support for Every Stage of the Journey</h3>
+          <h3 className="text-4xl font-semibold">Practical Guidance for the Decisions and Details of Aliyah</h3>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {[
-            {
-              title: 'Where to Start',
-              text: 'Guidance for families unsure how to begin the aliyah process or what steps to prioritize first.',
-            },
-            {
-              title: 'Personalized Aliyah Planning',
-              text: 'Build a realistic roadmap based on your family’s timeline, goals, finances, and priorities.',
-            },
-            {
-              title: 'Community Research',
-              text: 'Explore communities based on religious fit, schools, budget, lifestyle, and family stage.',
-            },
-            {
-              title: 'Budget Planning',
-              text: 'Understand realistic costs and prepare thoughtfully for life in Israel.',
-            },
-            {
-              title: 'Pilot Trip Planning',
-              text: 'Create purposeful pilot trips focused on communities, schools, employment, and daily life.',
-            },
-            {
-              title: 'School & Job Guidance',
-              text: 'Organize school research, career planning, networking, and employment preparation.',
-            },
-          ].map((service) => (
+  {
+    title: 'Where to Start',
+    text: 'For families overwhelmed by the aliyah process and unsure what to do first.',
+  },
+  {
+    title: 'Community & Schools Guidance',
+    text: 'Thinking through neighborhoods, schools, religious and community fit, and family life in Israel.',
+  },
+  {
+    title: 'Budget & Practical Planning',
+    text: 'Understanding costs, tradeoffs, and what daily life may realistically require.',
+  },
+  {
+    title: 'Pilot Trip Planning',
+    text: 'Turning a trip to Israel into a focused planning tool instead of a blur of meetings and impressions.',
+  },
+  {
+    title: 'Step-by-Step Aliyah Process',
+    text: 'Breaking paperwork, timing, documents, appointments, and practical logistics into manageable next steps.',
+  },
+  {
+    title: 'Long-Term & Emergency Planning',
+    text: 'For families not ready to move yet, but wanting a thoughtful plan for the future.',
+  },
+].map((service) => (
             <div
               key={service.title}
               className="rounded-[2rem] border border-[#D8CBB8] bg-white/70 p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
