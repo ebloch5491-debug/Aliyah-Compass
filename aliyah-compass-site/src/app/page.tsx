@@ -104,15 +104,15 @@ export default function AliyahCompassHomepage() {
 
             <div className="mt-6 space-y-5 text-lg leading-8 text-[#4B5563]">
               <p>
-                I created Aliyah Compass to help families navigate one of the biggest decisions they will ever make. Aliyah is exciting, meaningful, and often overwhelming.
+                Hi, I’m Efrat Bloch. Before starting Aliyah Compass, I worked as an actuary for 11 years, which shaped the way I think about planning, details, budgets, and big life decisions. My husband and I made aliyah from Philadelphia with our three children, and we now live in Har Nof.
               </p>
 
               <p>
-                Whether you are actively planning a move or simply exploring aliyah for the future, I provide warm, practical guidance to help you think through your options and move forward with greater clarity and confidence.
+                I created Aliyah Compass because I saw the need for something between general aliyah resources and full-service relocation support. Many families do not need someone to manage every detail for them — they need personalized guidance, practical support, and help organizing what to do next.
               </p>
 
               <p>
-                For many families, aliyah is about more than logistics. Questions about community, schools, family life, and long-term goals are often just as important as budgets, paperwork, and timelines.
+                Whether aliyah is around the corner or still years away, my goal is to help families think through communities, schools, budget, timing, and next steps with clarity and confidence.
               </p>
             </div>
           </div>
