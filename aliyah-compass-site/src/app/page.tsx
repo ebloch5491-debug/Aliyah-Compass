@@ -18,71 +18,68 @@ export default function AliyahCompassHomepage() {
         </div>
       </header>
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute -left-32 top-0 h-96 w-96 rounded-full bg-[#D8CBB8] blur-3xl"></div>
-          <div className="absolute right-0 top-40 h-96 w-96 rounded-full bg-[#E2D3BE] blur-3xl"></div>
+      {/* Hero */}
+      <section className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-32 lg:grid-cols-2">
+        <div>
+          <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-[#A57C52]">
+            Aliyah Guidance for Families
+          </p>
+
+          <h2 className="max-w-3xl text-5xl font-semibold leading-tight md:text-6xl">
+            From First Questions to Building a Life in Israel
+          </h2>
+
+          <p className="mt-6 max-w-2xl text-xl leading-8 text-[#4B5563]">
+            Warm, practical guidance for families thinking through aliyah,
+            community, schools, budgeting, and the many real-life questions that
+            come with building a future in Israel.
+          </p>
+
+          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+            <a
+              href="#contact"
+              className="rounded-2xl bg-[#A57C52] px-7 py-4 text-sm font-medium text-white shadow-lg transition hover:opacity-90"
+            >
+              Book a Consultation
+            </a>
+
+            <a
+              href="#services"
+              className="rounded-2xl border border-[#C7B299] px-7 py-4 text-sm font-medium transition hover:bg-[#EFE5D7]"
+            >
+              Explore Services
+            </a>
+          </div>
         </div>
 
-        <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-32 md:grid-cols-2 md:items-center">
-          <div>
-            <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-[#A57C52]">
-              Aliyah Guidance for Families
-            </p>
-
-            <h2 className="max-w-xl text-6xl font-semibold leading-tight md:text-6xl">
-              From First Questions to Building a Life in Israel
-            </h2>
-
-            <p className="mt-8 max-w-xl text-lg leading-8 text-[#4B5563]">
-              Warm, practical guidance for families thinking through aliyah, community, schools, budgeting, and the many real-life questions that come with building a future in Israel.
-            </p>
-
-            <div className="mt-10 flex flex-wrap gap-4">
-              <a
-                href="#contact"
-                className="rounded-2xl bg-[#A57C52] px-7 py-4 text-sm font-medium text-white shadow-lg transition hover:opacity-90"
-              >
-                Book a Consultation
-              </a>
-
-              <a
-                href="#services"
-                className="rounded-2xl border border-[#C7B299] px-7 py-4 text-sm font-medium transition hover:bg-[#EFE5D7]"
-              >
-                Explore Services
-              </a>
-            </div>
-          </div>
-
         <div className="relative">
-            <div className="absolute -inset-4 rounded-[2.5rem] bg-[#D8CBB8]/40 blur-2xl"></div>
+          <div className="absolute -inset-4 rounded-[2.5rem] bg-[#D8CBB8]/40 blur-2xl"></div>
 
-            <div className="relative overflow-hidden rounded-[2rem] border border-[#D8CBB8] shadow-2xl">
-              <img
-                src="/hero-jerusalem.png"
-                alt="Warm Jerusalem stone alleyway"
-                className="h-[500px] w-full object-cover"
-              />
+          <div className="relative overflow-hidden rounded-[2rem] border border-[#D8CBB8] shadow-2xl">
+            <img
+              src="/hero-jerusalem.png"
+              alt="Warm Jerusalem stone alleyway"
+              className="h-[500px] w-full object-cover"
+            />
 
-              <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-black/10 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-black/10 to-transparent"></div>
 
-              <div className="absolute bottom-8 left-8 right-8 rounded-[1.5rem] border border-white/50 bg-white/80 p-6 shadow-lg backdrop-blur-sm">
-                <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#7C5A3A]">
-                  Communities • Schools • Family Life
-                </p>
+            <div className="absolute bottom-8 left-8 right-8 rounded-[1.5rem] border border-white/50 bg-white/80 p-6 shadow-lg backdrop-blur-sm">
+              <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#7C5A3A]">
+                Communities • Schools • Family Life
+              </p>
 
-                <h3 className="mt-4 max-w-sm text-3xl font-semibold leading-tight text-[#1F2E3D]">
-                  A calmer way to plan your future in Israel.
-                </h3>
+              <h3 className="mt-4 max-w-sm text-3xl font-semibold leading-tight text-[#1F2E3D]">
+                A calmer way to plan your future in Israel.
+              </h3>
 
-                <p className="mt-4 max-w-sm text-base leading-7 text-[#4B5563]">
-                  Thoughtful support for the practical, emotional, and family decisions that come with aliyah.
-                </p>
-              </div>
+              <p className="mt-4 max-w-sm text-base leading-7 text-[#4B5563]">
+                Thoughtful support for the practical, emotional, and family
+                decisions that come with aliyah.
+              </p>
             </div>
           </div>
+        </div>
       </section>
       
       {/* Meet Efrat */}
