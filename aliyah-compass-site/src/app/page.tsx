@@ -175,7 +175,7 @@ export default function AliyahCompassHomepage() {
   },
   {
     title: 'Step-by-Step Aliyah Process',
-    text: 'Breaking paperwork, timing, documents, appointments, and practical logistics into manageable next steps.',
+    text: 'Breaking down paperwork, timing, documents, appointments, and practical logistics into manageable next steps.',
   },
   {
     title: 'Long-Term & Emergency Planning',
