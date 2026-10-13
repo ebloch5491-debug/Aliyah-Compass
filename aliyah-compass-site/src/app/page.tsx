@@ -87,7 +87,7 @@ export default function AliyahCompassHomepage() {
         <div className="grid gap-10 rounded-[2rem] border border-[#D8CBB8] bg-white/70 p-8 shadow-sm md:grid-cols-[1fr_2fr] md:p-12">
           <div className="flex items-center justify-center">
             <img
-  src="/efrat-headshot.png"
+  src="/efrat-headshot.jpg"
   alt="Efrat Bloch, founder of Aliyah Compass"
   className="h-52 w-52 rounded-full border border-[#D8CBB8] object-cover shadow-md"
 />
